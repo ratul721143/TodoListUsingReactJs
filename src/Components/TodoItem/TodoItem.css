@@ -1,0 +1,41 @@
+.itemDiv {
+  box-sizing: border-box;
+  width: 80vw;
+  height: auto;
+  /* background-color: #F7DC6F; */
+  background-color: #D1F2EB;
+  padding: 10px 20px;
+  border-radius: 10px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 25px;
+  text-transform: capitalize;
+  margin: 10px 0px;
+  display: flex;
+  position: relative;
+  transition:.5s;
+}
+
+.itemDiv:hover{
+  box-shadow: -1px -3px 3px white,
+  inset -1px -3px 3px white;
+  /* background-color: #F8C471; */
+  background-color: #AED6F1;
+}
+
+.deleteButton {
+  position: absolute;
+  right: 5px;
+}
+
+.deleteButton img{
+  height:30px;
+  width:30px;
+  cursor: pointer;
+}
+
+.deleteButton img:hover{
+  transform: rotate(90deg);
+  transition: all .3s linear 0s;
+}
+
+

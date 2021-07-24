@@ -1,0 +1,46 @@
+.formArea{
+  margin-top:10vh;
+  box-sizing: border-box;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.form__input{
+  border-radius: 50px;
+  width:50vw;
+  height:100%;
+  padding:0px 20px;
+  font-size: 20px;
+  border:none;
+  background-color: #D5D8DC;
+  box-shadow: inset 1px 0px 1px #EAECEE,
+  inset 1px 5px 5px #566573,
+  inset -1px -5px 3px white;
+}
+
+.form__input:focus{
+  outline: none;
+  background-color: #ABEBC6;
+  box-shadow: inset 1px 0px 1px #EAECEE,
+  inset 1px 5px 5px #229954,
+  inset -1px -5px 3px white;
+}
+
+.addItem__button{
+  height:100%;
+  border-radius: 50px;
+  background-color: #9B59B6;
+  border:none;
+  color:white;
+  margin-left:5px;
+  box-shadow:inset 1px 5px 5px #6C3483;
+  cursor: pointer;
+  padding:1px 10px;
+  transition:.5s;
+}
+
+.addItem__button:hover{
+  box-shadow: inset -1px -5px 5px #6C3483;
+}
